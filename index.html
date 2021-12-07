@@ -1,39 +1,120 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html>
   <head>
-    <link rel="stylesheet" href="lib/style.css">
+    <link rel="stylesheet" href="lib/style.css" />
     <script src="lib/script.js"></script>
+    <style>
+      h1 {
+        color: green;
+        background-color: yellow;
+      }
+      body {
+        background-color: white;
+      }
+      div {
+        border: 2px dashed red;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 70px;
+        margin-bottom: 100px;
+        background-color: grey;
+        padding-left: 20px;
+        padding-bottom: 15px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;        
+      }
+      table{
+        border-collapse: collapse;
+        width: 80%;        
+      }
+      th{
+        height: 30px;
+        text-align: center;
+      }
+      td{
+        height: 40px;
+        vertical-align: top;
+        text-align: left;
+        padding-left: 10px;
+      }
+      tr:hover{
+        background-color: grey;
+      }
+      tr:nth-child(even){
+        background-color: grey;
+      }
+      tr:nth-child(odd){
+        background-color: yellow;
+      }
+    </style>
   </head>
 
   <body>
     <a href="links.html">Links</a>
-    <br>
+    <br />
     <a href="tables.html">Tables</a>
-    <br>
+    <br />
     <a href="formatting.html">Formatting</a>
-    <br>
+    <br />
     <a href="layout.html">Layout</a>
-    <br>
+    <br />
     <a href="forms.html">Forms</a>
-    <h1>Hello Plunker!</h1>
-     <h2>Hello World!</h2>
-     <p>Merhaba, ben Barış Arslan</p>
-     <ul>
-       <li>Ankara
-         <ul>
-           <li>Yeni Mahalle</li>
-           <li>Çankaya</li>
-           <li>Sincan</li>
-         </ul>
-       </li>
-       <li>Kocaeli</li>
-       <li>İstanbul</li>
-     </ul>
-     <ol>
-        <li>Ankara</li>
-        <li>Kocaeli</li>
-        <li>İstanbul</li>
-     </ol>
+    <h1 style="background-color: aqua">Hello Plunker!</h1>
+    <h2>Hello World!</h2>
+    <div>
+      Merhaba, ben Barış Arslan Merhaba, ben Barış Arslan Merhaba, ben Barış
+      Arslan Merhaba, ben Barış Arslan Merhaba, ben Barış Arslan Merhaba , ben
+      Barış Arslan Merhaba, ben Barış Arslan Merhaba, ben Barış Arslan Merhaba,
+      ben Barış Arslan Merhaba, ben Barış Arslan Merhaba, ben Barış Arslan
+    </div>
+    <table>
+      <tr>
+        <th>Adı</th>
+        <th>Soyad</th>
+        <th>Şehir</th>
+      </tr>
+      <tr>
+        <td>Engin</td>
+        <td>Demiroğ</td>
+        <td>Ankara</td>
+      </tr>
+      <tr>
+        <td>Barış</td>
+        <td>Arslan</td>
+        <td>Kocaeli</td>
+      </tr>
+      <tr>
+        <td>Barış</td>
+        <td>Arslan</td>
+        <td>Kocaeli</td>
+      </tr>
+      <tr>
+        <td>Barış</td>
+        <td>Arslan</td>
+        <td>Kocaeli</td>
+      </tr>
+    </table>
+    <p>Merhaba, ben Barış Arslan</p>
+    <ul>
+      <li>
+        Ankara
+        <ul>
+          <li>Yeni Mahalle</li>
+          <li>Çankaya</li>
+          <li>Sincan</li>
+        </ul>
+      </li>
+      <li>Kocaeli</li>
+      <li>İstanbul</li>
+    </ul>
+    <ol>
+      <li>Ankara</li>
+      <li>Kocaeli</li>
+      <li>İstanbul</li>
+    </ol>
   </body>
 </html>
