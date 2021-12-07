@@ -1,3 +1,3 @@
-# basiclyHtml
+# basiclyHtmlAndCss
 
-Html temellerine ait örnek kodların yer aldığı basit bir proje.
+Html ve css temellerine ait örnek kodların yer aldığı basit bir proje.
